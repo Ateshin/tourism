@@ -1,7 +1,7 @@
 import pandas as pd
 import streamlit as st
 import plotly.express as px
-df = pd.read_csv("C:\\Users\\Hussein\\Desktop\\Tourism.csv")
+df = pd.read_csv("Tourism.csv")
 df = df.drop(labels=[
     "Existence of hotels - does not exist", 
     "Existence of cafes - does not exist", 
